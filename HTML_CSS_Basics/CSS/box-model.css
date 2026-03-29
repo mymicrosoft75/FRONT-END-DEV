@@ -1,24 +1,84 @@
 body {
     background: #234;
-    color: white;
-} 
+    color: white; 
+}
+
+
+/* h1 {
+    background: teal;
+    margin: 50px 20px 50px 20px; 
+} */
+
+/* p {
+    display: flex;
+    overflow: hidden auto;
+    background-color: red;
+    width: 800px;
+    height: 200px;
+} */
+
+
+/* h2 {
+    background: pink;
+    margin: 200px 200px 200px 200px; 
+    border-width: 4px;
+    border-color: yellow;
+    border-style: solid;
+    border-radius: 5px;
+} */
+
+.para1 {
+    background: teal;
+    /* border: 1px solid white;
+    padding: 0px 20px;
+    border-radius: 50px; */
+}
+/* .para1:hover {
+    background: white;
+    color: teal;
+    border: 1px solid red;
+    padding: 0px 20px;
+    border-radius: 50px;
+} */
+
+/* main {
+      padding-top: 100px;
+} */
 
 section {
-    background: #456; 
-    padding: 50px;
-    margin: 100px 0;
-}
-
-.bg-light {
-    background: #fff;
-    color: #333;
-}
-
-.bg-dark {
-    background: #333;
-    color: #fff;
+    background: rgb(154, 91, 154);
+    padding: 40px;
+    margin: 100px 0px;
+    border: 1px solid white;
 }
 
 #margin {
-    background: red;
+    background: teal;
+    padding: 40px;
+    margin: 100px 0px;
+    border: 1px solid white;
 }
+
+.dark-red {
+    background: red;
+    padding: 40px;
+    margin: 100px 0px;
+    border: 1px solid white;
+}
+
+
+
+.dark-blue {
+    background: blue;
+    padding: 40px;
+    margin: 100px 0px;
+
+}
+
+.borders {
+    background: green;
+    padding: 40px;
+    margin: 100px 0px;
+}
+
+

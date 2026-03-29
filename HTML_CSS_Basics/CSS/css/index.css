@@ -17,6 +17,7 @@ body {
     color: #fff; 
     background: #1A1E26; 
     font-size: 21px;
+    /* overflow-x: hidden; */    /* this is to prevent horizontal scroll when the background image is wider than the viewport, but it also prevents the horizontal scrollbar from appearing when the content overflows horizontally. Use with caution. */
 }
 
 h1, h2, h3 {
@@ -109,4 +110,32 @@ section {
 
 .columns {
     display: flex;
+    gap: 30px;
+    /* border: 1px solid red; */
+}
+
+
+
+/* My MAKERY */
+
+
+.col {
+    /* border: 1px solid #fff; */
+    padding: 10px;
+    /* flex-direction: column; */
+}
+p .col {
+    text-align: justify;
+}
+
+h3 {
+    border: 1px solid red;
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col h3 {
+
+    min-height: 80px;
 }
