@@ -1,0 +1,146 @@
+/* 
+NOTES:
+
+some elements have default margin and padding, while others don't.
+
+chaeck line 62 for a simple memory trick to remember
+ which elements have margin and padding by default.
+
+Simple Memory Trick
+
+👉 Text elements = margin
+
+h1–h6
+p
+
+👉 List elements = margin + padding
+
+ul, ol
+
+👉 Form elements = padding
+
+button, input
+
+👉 Layout elements = nothing
+
+div, section
+
+
+*/
+
+
+
+
+
+body {
+    background: whitesmoke;
+    margin: 0px;
+}
+
+/* h1 {
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    background-color: #281b2d;
+    margin: 0px 10px 10px 10px;
+    border-radius: 10px;
+    padding: 25px 0px;
+} */
+
+header {
+    background-color: #281b2d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 72px;
+    margin: 0px;
+}
+
+/* h2 {
+    margin: 0px 0px 30px;   
+} */
+
+
+/* */
+
+.sub-heading {
+    font-size: 48px;
+    background-color: #281b2d;
+    /* text-align: center; */
+    color: #fcd801;
+    padding: 20px;
+    border-bottom: 5px solid #00c54c;
+}
+
+.white-text {
+    color: #fff;
+}
+.container {
+    max-width: 1000px;
+    /* border: 2px solid #000; */
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+
+/* @media screen and (max-width: 1000px) {
+    .container {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+} */
+
+h2 {
+    margin: 0px;
+}
+
+.columns {
+    margin-top: 60px;
+    display: flex;
+    gap: 50px;
+    /* border: 2px solid #7c3ba4; */
+}
+
+.section-content {
+    display: flex;
+    gap: 20px;
+    /* border: 2px solid #ff0000; */
+}
+
+.col-left {
+    flex: 1;
+    /* border: 2px solid #00ff00; */
+}
+
+.col-right {
+    flex: 2;
+    /* border: 2px solid #00ff00; */
+}
+
+.sidebar {
+    /* border: 2px solid #0000ff; */
+    background-color: #9ae84f;
+    padding: 0px 20px 20px;
+    
+}
+
+
+
+
+.source {
+    padding-left: 10px;
+}
+
+a:hover {
+    color: #9138b7;
+}
+
+
