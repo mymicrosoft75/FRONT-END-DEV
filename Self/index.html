@@ -1,31 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+   
+
+    <h1>Welcome to learn JavaScript!</h1>
+
+    <!-- 
+    <h2 id="content">WTF</h2>
     
-    <div class="container">
-        <div class="col1">
-            <h2>This is left column</h2>
-            <div class="column">
-                <div class="left">
-                    <p>col-left</p>
-                </div>
-                <div class="right">
-                    <p>col-right</p>
-                </div>
-            </div>
-        </div>
-        <div class="col2">
-            <h2>This is right column</h2>
-        </div>
-    </div>
+    
+    <button id="" onclick="document.getElementById('content').innerHTML = 'Hello World';">
+      Click Me to change the content ABOVE!
+    </button>
+
+    <h1 id="content-2">WTF</h1>
+    <button id="" onclick="myFunction()">
+      Click Me to change the content ABOVE!
+    </button>
+
+    <p><img class="image" id="image" src="img/comatozze.jpg" alt="Comatozze"></p>
+    <button id="change-image" onclick="changeImage()">
+      Click Me to change the image ABOVE!
+    </button>
+
+    <h2 id="change-font" class="heading-2">Welcome to my website!</h2>
+    <button id="change-font-btn" onclick="changeFont()">
+      Click Me to change the font ABOVE!
+    </button> -->
 
 
 
-</body>
+    <h2>Let's get started!</h2>
+    <img id="hide-image" class="image" src="img/comatozze.jpg" alt="Comatozze">
+    <button onclick="hideImage()">Click Me to hide the image!</button>
+
+
+    <p id="tease-paragraph"></p> 
+    <button onclick="teaseParagraph()">Click Me to add some text!</button>
+
+
+    <script src="index.js"></script>
+  </body>
 </html>

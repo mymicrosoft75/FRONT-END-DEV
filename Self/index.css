@@ -4,15 +4,15 @@ body {
     background-color: teal;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
+.image {
+    display: block;
+    object-fit: cover;
+    height: 640px;
+    width: 360px;
 }
 
-.col1 , .col2 {
-    border: 2px solid white;
-}
 
-.column {
-    display: flex;
+.heading-2 {
+    font-family: 'Arial', sans-serif;
+    color: white;
 }
