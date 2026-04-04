@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Functions</h1>
+<h2>Arrow Functions</h2>
+
+<p>This example shows the syntax of an Arrow Function, and how to use it.</p>
+
+<input type="text" id="inputName" placeholder="Enter your full name">
+<br>
+<button onclick="showGreet()"> Click me </button>
+<p id="demo"></p>
+
+<script>
+// add computes the product of a and b
+const greet = name => "Hello " + name;
+
+function showGreet() {
+	let name = document.getElementById('inputName').value;
+	document.getElementById('demo').innerHTML = greet(name);
+}
+
+
+
+</script>
+
+</body>
+</html>
