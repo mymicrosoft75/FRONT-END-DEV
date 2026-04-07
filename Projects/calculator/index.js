@@ -3,7 +3,7 @@ let display = document.getElementById('display');
 
 
 function number(num) {
-    if (display.innerText === '0') {
+    if (display.innerText === '0' || display.innerText === 'Error') {
         display.innerText = num;
     } else {
         display.innerText += num;
@@ -11,6 +11,7 @@ function number(num) {
 }
 
 function operator(op) {
+    if(display.innerText === '0') return;
     let lastChar = display.innerText.slice(-1);
     if(['+' , '-' , '*' , '/' , '√'].includes(lastChar)) {
         display.innerText = display.innerText.slice(0, -1) + op;
@@ -31,8 +32,24 @@ function deleteLast() {
     }
 }
 
+function decimal(dot) {
+    let lastNumber = display.innerText.split(/[\+\-\*\/]/).pop();
+    
+    if(!lastNumber.includes('.')) {
+        display.innerText += dot;
+    }
+}
+
+
+
 function result() {
-    display.innerText = eval(display.innerText);
+    
+    try {
+        let res = eval(display.innerText);
+        display.innerText = res === Infinity ? 'Error' : res;
+    } catch {
+        display.innerText = 'error';
+    }
 }
 
 
@@ -43,6 +60,9 @@ function result() {
 function clearDisplay() {
     display.innerText = '0';
 }
+
+
+
 
 
 function toggleSign() {
