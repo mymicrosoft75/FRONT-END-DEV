@@ -11,7 +11,12 @@ function number(num) {
 }
 
 function operator(op) {
-    if(display.innerText === '0') return;
+    
+    if(display.innerText === '0') {
+    display.innerText = op === '-' ? '-' : op;
+    return;
+    }
+
     let lastChar = display.innerText.slice(-1);
     if(['+' , '-' , '*' , '/' , '√'].includes(lastChar)) {
         display.innerText = display.innerText.slice(0, -1) + op;
@@ -23,6 +28,11 @@ function operator(op) {
 
 function deleteLast() {
     let current = display.innerText;
+
+    if(current === 'Error') {
+        display.innerText = '0';
+        return;
+    }
 
     if(current.length === 1) {
         display.innerText = '0';
@@ -48,7 +58,7 @@ function result() {
         let res = eval(display.innerText);
         display.innerText = res === Infinity ? 'Error' : res;
     } catch {
-        display.innerText = 'error';
+        display.innerText = 'Error';
     }
 }
 
@@ -65,7 +75,7 @@ function clearDisplay() {
 
 
 
-function toggleSign() {
-    let number = display.innerText;
-    display.innerText = (number * -1) ; 
-}
+// function toggleSign() {
+//     let number = display.innerText;
+//     display.innerText = (number * -1) ; 
+// }
