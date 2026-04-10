@@ -18,7 +18,7 @@ function operator(op) {
     }
 
     let lastChar = display.innerText.slice(-1);
-    if(['+' , '-' , '*' , '/' , '√'].includes(lastChar)) {
+    if(['+' , '-' , '*' , '/'].includes(lastChar)) {
         display.innerText = display.innerText.slice(0, -1) + op;
     } else {
         display.innerText += op;
