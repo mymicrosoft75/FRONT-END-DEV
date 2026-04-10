@@ -25,7 +25,7 @@ function getRandomNumber() {
 }
 
 function startGame() {
-  if (player.chips > 0) {
+  if (player.chips >= 10) {
     isAlive = true;
     hasBlackJack = false;
     cards = [];
@@ -43,10 +43,11 @@ function startGame() {
 
 let player = {
   name: "Rahul Das",
-  chips: 150,
+  chips: 200,
 };
 
 let playerEl = document.getElementById("player-el");
+player.textContent = player.name + ": $" + player.chips
 
 function renderPlayer() {
   playerEl.textContent = player.name + ": $" + player.chips;
@@ -61,7 +62,7 @@ function renderGame() {
     player.chips += 200;
     renderPlayer();
   } else {
-    if(player.chips>0){
+    if(player.chips > 0){
     message = "Try again!";
     }else {
       message = "You lost all your money!"

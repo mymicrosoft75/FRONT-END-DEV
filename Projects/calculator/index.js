@@ -1,6 +1,4 @@
-
 let display = document.getElementById('display');
-
 
 function number(num) {
     if (display.innerText === '0' || display.innerText === 'Error') {
@@ -50,8 +48,6 @@ function decimal(dot) {
     }
 }
 
-
-
 function result() {
     
     try {
@@ -62,17 +58,9 @@ function result() {
     }
 }
 
-
-
-
-
-
 function clearDisplay() {
     display.innerText = '0';
 }
-
-
-
 
 
 // function toggleSign() {
