@@ -47,7 +47,7 @@ let player = {
 };
 
 let playerEl = document.getElementById("player-el");
-player.textContent = player.name + ": $" + player.chips
+playerEl.textContent = player.name + ": $" + player.chips
 
 function renderPlayer() {
   playerEl.textContent = player.name + ": $" + player.chips;
