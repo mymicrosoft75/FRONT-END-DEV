@@ -15,6 +15,7 @@ let inputEmoji = document.getElementById("input-emoji");
 let addStart = document.getElementById("add-start");
 let addEnd = document.getElementById("add-end");
 let removeStart= document.getElementById("remove-start");
+
 let removeEnd = document.getElementById("remove-end");
 
 
