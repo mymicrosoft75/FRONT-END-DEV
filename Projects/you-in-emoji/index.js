@@ -10,6 +10,7 @@ for(let i = 0; i < emoji.length; i++) {
 emojiContainer.innerHTML = heading;
 
 
+
 let inputEmoji = document.getElementById("input-emoji");
 let addStart = document.getElementById("add-start");
 let addEnd = document.getElementById("add-end");
