@@ -21,6 +21,32 @@ p {
 }
 
 .links {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 0px;
+}
+
+
+strong {
+    background: yellow;
+    color: black;
+}
+
+a:link {
+    color: purple;
+}
+
+a:visited {
+    color: red;
+}
+
+a:focus {
+    color: aquamarine;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: plum;
 }
