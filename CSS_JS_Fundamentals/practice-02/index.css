@@ -1,0 +1,109 @@
+
+
+/* 
+color 
+#2E354F
+#EF5839
+
+*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #2E354F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+header {
+    padding: 45px 0;
+}
+
+div.header {
+    width: 620px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #EF5839;
+}
+
+img {
+    width: 100%;
+    height: 360px;
+}
+
+
+.container  {
+    border: 3px solid red;
+}
+
+.container-one {
+    background: white;
+    color: #2E354F;
+    padding: 10px;
+}
+
+.container-two {
+    padding: 20px;
+}
+
+
+.section-one {
+    width: 620px;
+    margin: 0 auto;
+}
+
+.section-two {
+    width: 620px;
+    margin: 0 auto;
+}
+
+
+a {
+    display: inline-block;
+    color: #EF5839;
+    font-weight: 800;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 20px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+.btn:focus {
+    background: black;
+    color: white;
+}
+
+.btn-one {
+    background: #EF5839;
+    color: white;       
+}
+
+.btn-two {
+    background: white;
+    color: #2E354F;
+    
+}
+.btn-one:hover {
+    background: white;
+    color: #EF5839;
+}
+
+.btn-two:hover {
+    background: #000;
+    color: white;
+}
