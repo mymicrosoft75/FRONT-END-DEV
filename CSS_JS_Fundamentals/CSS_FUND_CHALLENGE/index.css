@@ -1,0 +1,123 @@
+body {
+    text-align: center;
+    font-family: 'roboto';
+    font-size: 21px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 570px;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* border: 2px solid red; */
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+p {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+h1, h2 {
+    padding: 0;
+    margin-top: 0;
+    font-weight: 300;
+    /* border: 2px solid pink; */
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 36px;
+    padding: 0;
+    margin: 0;
+    /* border: 2px solid blue; */
+}
+
+.highlighted-text {
+    display: block;
+    font-weight: 900;
+    color: #99d930;
+}
+
+h1 .highlighted-text {
+    font-size: 80px;
+}
+
+h2 .highlighted-text {
+    font-size: 60px;
+}
+
+.content-header {
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+
+.author {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+a {
+    color: #99d930;
+    font-weight: 900;
+}
+
+
+a:hover, a:focus {
+    color: #131313;
+}
+
+
+
+.profile, .about, .article {
+    margin: 0;
+    padding: 100px 0px;
+}
+
+.inverse {
+    background: #252525;
+    color: white;
+}
+
+
+
+
+.button {
+    display: inline-block;
+    background: #99d930;
+    color: black;
+    text-decoration: none;
+    padding: 10px 25px;
+    margin: 10px 0px 0px;
+}
+
+.button:hover,
+.button:focus {
+    color: white;
+    background: #000;
+}
+
+
+
+
+article a.button:hover,
+article a.button:focus {
+    background-color: #fff;
+    color: #252525;
+}
