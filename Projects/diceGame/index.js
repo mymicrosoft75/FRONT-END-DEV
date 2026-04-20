@@ -1,3 +1,4 @@
+alert("The first player who will score 30 or more,will be the winner!!")
 let player1Score = 0;
 let player2Score = 0;
 let player1Turn = true;
@@ -18,12 +19,12 @@ function randomNumber() {
 function renderScore() {
   player1Scoreboard.textContent = player1Score;
   player2Scoreboard.textContent = player2Score;
-  if (player1Score >= 20) {
+  if (player1Score >= 30) {
     message.textContent = "Player 1 Has Won The Game!!";
     message.style.color = "green";
     player1Scoreboard.style.color = "green"
     rollButton.disabled = true;
-  } else if (player2Score >= 20) {
+  } else if (player2Score >= 30) {
     message.textContent = "Player 2 Has Won The Game!!";
     message.style.color = "Blue";
     player2Scoreboard.style.color = "Blue"
