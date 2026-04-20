@@ -1,0 +1,91 @@
+/* Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+#message {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Players section */
+.players {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Each player */
+#player1, #player2 {
+    width: 45%;
+}
+
+/* Score text */
+h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Dice box */
+.dice {
+    width: 60px;
+    height: 60px;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+/* Active player highlight */
+.active {
+    background-color: #ffeaa7;
+    border: 2px solid #fdcb6e;
+}
+
+/* Buttons */
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Roll button */
+#rollBtn {
+    background-color: #00b894;
+    color: white;
+}
+
+/* Reset button */
+#resetBtn {
+    background-color: #d63031;
+    color: white;
+}
+
+/* Button hover */
+button:hover {
+    opacity: 0.8;
+}
