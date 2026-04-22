@@ -1,0 +1,32 @@
+
+
+body {
+
+}
+
+header {
+    border: 2px solid red;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container {
+    border: 2px solid saddlebrown;
+    display: flex;
+    
+}
+
+.title {
+    border: 2px solid salmon;
+}
+
+.navigation {
+    border: 2px solid black;
+    width: 50%;
+
+}
+
+ul {
+        border: 2px solid purple;
+
+}
